@@ -25,4 +25,4 @@ The work relies on the empirical surveys conducted by the American National Elec
 2. `embedding.ipynb`: We compute the low-dimensional embedding of the respondents' opinions by implementing Isomap algorithm. As a result, the file `embeddingISOMAP.csv` is generated.
 3. `polarization.ipynb`: We study the polarization across the demographic groups and the ideological trajectories in time. We also provide the numerical results obtained from the 2-dimensional Kolmogorov-Smirnov test and the null model.
 
-All the csv files are located in the `csvfiles` folder. Although most cells of the notebooks are executed in a very short times, the run time is shown for the most computationally expensive code.
+All csv files are located in the `csvfiles` folder. Although most cells of the notebooks are executed in a very short times, the run time is shown for the most computationally expensive code.
