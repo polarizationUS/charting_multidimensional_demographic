@@ -20,7 +20,8 @@ The results shown in the paper can be reproduced by running the jupyter notebook
 
 
 ### Instructions for use
-The work relies on the empirical surveys conducted by the American National Election Studes (ANES) in the years 1992, 2000, 2008, 2016, and 2020. The ANES dataset is publicly available at https://electionstudies.org/data-center/. In the file `ANESdataset.csv`, we previously collected data for the years used in the work. 
+The work relies on the empirical surveys conducted by the American National Election Studes (ANES) in the years 1992, 2000, 2008, 2016, and 2020. The ANES dataset is publicly available at https://electionstudies.org/data-center/. In the file `ANESdataset.csv`, we previously collected data for the years used in the work.
+
 The code is fully commented and described in detail. Besides the different Figures of the paper, the expected outputs vary depending on the notebook:
 
 1. `preprocessing.ipynb`: We preprocess the ANES data collected in the file `ANESdataset.csv` according to our purposes. Combining the data with the demographic information of respondents classified in `demographics.csv`, the notebook generates the new file `combineddata.csv`.
